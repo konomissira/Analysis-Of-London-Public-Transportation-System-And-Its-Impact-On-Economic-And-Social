@@ -13,4 +13,4 @@ print(df.isnull().sum())
 # For now, we'll assume the data matches the table structure and data types.
 
 # Save the cleaned data to a new CSV file
-df.to_csv('../data/raw/cleaned_workforce_jobs.csv', index=False)
+df.to_csv('../../data/raw/cleaned_workforce_jobs.csv', index=False)
