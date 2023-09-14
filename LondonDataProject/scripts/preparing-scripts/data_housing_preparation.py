@@ -3,7 +3,7 @@ import missingno as msno
 import matplotlib.pyplot as plt
 
 # Read the Excel file with a multi-index header
-df = pd.read_excel('../data/raw/housing-price-index-UK-London.xlsx', dtype={'London_Value': str, 'UK_Value': str})
+df = pd.read_excel('../../data/raw/housing-price-index-UK-London.xlsx', dtype={'London_Value': str, 'UK_Value': str})
 
 # Renaming the columns
 df.columns = ['Month', 'London_Value', 'London_Annual_Growth', 'UK_Value', 'UK_Annual_Growth']
