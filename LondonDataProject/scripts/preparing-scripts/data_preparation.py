@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV into a pandas DataFrame
-df = pd.read_csv('../data/raw/workforce-jobs-by-sector.csv')
+df = pd.read_csv('../../data/raw/workforce-jobs-by-sector.csv')
 
 # Inspect the first few rows of the dataframe to understand its structure
 print(df.head())
