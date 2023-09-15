@@ -2,7 +2,7 @@ import pandas as pd
 
 # Load the Excel file into a pandas DataFrame
 # Load the Excel file while skipping the first few rows
-df_labour_market = pd.read_excel('../data/raw/labour-market.xlsx', skiprows=5)
+df_labour_market = pd.read_excel('../../data/raw/labour-market.xlsx', skiprows=5)
 
 # Drop the first row which seems like a sub-header
 df_labour_market = df_labour_market.drop(0)

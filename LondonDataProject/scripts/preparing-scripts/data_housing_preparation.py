@@ -45,4 +45,4 @@ df = df.reset_index(drop=True)
 
 print(df.head())
 
-df.to_excel('../data/cleaned/housing-price-index-UK-London_cleaned.xlsx', index=False)
+df.to_excel('../../data/cleaned/housing-price-index-UK-London_cleaned.xlsx', index=False)
